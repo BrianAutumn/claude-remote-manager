@@ -1,0 +1,17 @@
+# Copy to config.toml, which is gitignored, and edit.
+#
+# name:      used for both the tmux session and the remote control session.
+#            Letters, digits, - and _ only.
+# directory: where the session runs. ~ is expanded.
+# claude:    the command to launch with, which selects the account.
+#            Shell aliases work, such as claude and claudeb.
+
+[[session]]
+name = "my-project"
+directory = "~/Projects/my-project"
+claude = "claude"
+
+[[session]]
+name = "my-project-b"
+directory = "~/Projects/my-project"
+claude = "claudeb"
